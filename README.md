@@ -1,14 +1,15 @@
 # RailsI18nScaffold
-Short description and motivation.
+A gem to wrap the translation files for scaffolding.  These are genrally not included in 
+`rails_i18n`
 
 ## Usage
-How to use my plugin.
+Add it to the gemfile and run bundle. It will add its own yml translation files to the rails app path.
 
 ## Installation
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "rails_i18n_scaffold"
+gem 'rails_i18n_scaffold', git: 'https://github.com/jpgeek/rails_i18n_scaffold/tree/master''
 ```
 
 And then execute:
@@ -16,13 +17,8 @@ And then execute:
 $ bundle
 ```
 
-Or install it yourself as:
-```bash
-$ gem install rails_i18n_scaffold
-```
-
 ## Contributing
-Contribution directions go here.
+Happy to have contributions of translations for other languages.
 
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
