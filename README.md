@@ -21,6 +21,13 @@ And then execute:
 $ bundle
 ```
 
+To copy the templates into your lib directory, run:
+```bash
+$ rake bsi18n_scaffold:copy_template
+```
+
+You can then slash and burn as needed.
+
 ## Contributing
 Happy to have contributions of translations for other languages.
 
