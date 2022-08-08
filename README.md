@@ -13,20 +13,13 @@ Add it to the gemfile and run bundle. It will add its own yml translation files 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails_i18n_scaffold', git: ''https://github.com/jpgeek/rails_i18n_scaffold'
+gem 'rails_i18n_scaffold', git: 'https://github.com/jpgeek/rails_i18n_scaffold/tree/master''
 ```
 
 And then execute:
 ```bash
 $ bundle
 ```
-
-To copy the templates into your lib directory, run:
-```bash
-$ rake bsi18n_scaffold:copy_template
-```
-
-You can then slash and burn as needed.
 
 ## Contributing
 Happy to have contributions of translations for other languages.
