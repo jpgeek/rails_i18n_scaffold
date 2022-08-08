@@ -3,7 +3,7 @@ require 'rails'
 module RailsI18nScaffold
   class Railtie < ::Rails::Railtie
     initializer 'rails-i18n' do |app|
-      RailsI18n::Railtie.instance_eval do
+      RailsI18nScaffold::Railtie.instance_eval do
         pattern = pattern_from app.config.i18n.available_locales
         add("rails/template/#{pattern}.yml")
       end

@@ -9,7 +9,7 @@ Add it to the gemfile and run bundle. It will add its own yml translation files 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails_i18n_scaffold', git: 'https://github.com/jpgeek/rails_i18n_scaffold/tree/master''
+gem 'rails_i18n_scaffold', git: ''https://github.com/jpgeek/rails_i18n_scaffold'
 ```
 
 And then execute:
