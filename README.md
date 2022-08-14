@@ -1,6 +1,6 @@
 # RailsI18nScaffold
 
-## This has been merged into bsi18n_scaffold, so this will no longer be maintained.
+## This has been merged into [bsi18n_scaffold](https://github.com/jpgeek/bsi18n_scaffold), so this will no longer be maintained.
 
 
 A gem to wrap the translation files for scaffolding.  These are genrally not included in 
